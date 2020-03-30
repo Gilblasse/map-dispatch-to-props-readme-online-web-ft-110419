@@ -1,6 +1,6 @@
-export default function shoppingListItemReducer(state = {
-  items: []
-}, action) {
+const initState =  { items: [] }
+
+export default function shoppingListItemReducer(state = initState, action) {
   console.log(action)
   switch(action.type) {
 
